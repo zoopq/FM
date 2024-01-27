@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프레데릭 말</title>
+
+    <!-- font -->
+    <link rel="stylesheet" href="css/font.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- js -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="inner">
+                <div class="top">
+                    <div class="util_l">
+                        <div class="ham">
+                            <img src="img/ham.png" alt="메뉴보기">
+                            <img src="img/cl.png" alt="메뉴닫기" class="close">
+                        </div>
+                        <div class="mgnb_wrap">
+                            <ul class="mgnb">
+                                <li><a href="#">PERFUMES</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="#">ICONIC</a></li>
+                                        <li><a href="#">Women's perfume</a></li>
+                                        <li><a href="#">Men's perfume</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">BODY</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="#">Body Wash</a></li>
+                                        <li><a href="#">Body Milk</a></li>
+                                        <li><a href="#">Body & Hair Oil</a></li>
+                                        <li><a href="#">Body Butter</a></li>
+                                        <li><a href="#">Hand Cream</a></li>
+                                        <li><a href="#">Hand Wash</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">HOME</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="#">Scented Candle</a></li>
+                                        <li><a href="#">Perfume Gun</a></li>
+                                        <li><a href="#">Linen Spray</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">GIFTING</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="#">GIFT SELECTION</a></li>
+                                        <li><a href="#">GIFT SET</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">DISCOVER FREDERIC MALLE</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="#">ABOUT THE PERFUMES</a></li>
+                                        <li><a href="#">ABOUT FREDERIC MALLE</a></li>
+                                        <li><a href="#">OUR PERFUMERS</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <!-- <div class="mgnb_close"><a href="#"></a></div> -->
+                        </div>
+                        <a href="#"><img src="img/kr.png" alt="언어설정"></a>
+                    </div>
+                    </ul>
+                    <h1 class="logo">
+                        <img src="img/logo.png" alt="프레데릭말">
+                    </h1>
+                    <ul class="util">
+                        <li><a href="#"><img src="img/bag.png" alt="장바구니"></a></li>
+                        <li class="btn_search"><a href="#"><img src="img/se.png" alt="검색"></a></li>
+                    </ul>
+                </div>
+                <nav>
+                    <ul class="gnb">
+                        <li><a href="sub/perfume_01.html">PERFUMES</a>
+                            <ul class="depth2">
+                                <li><a href="#">ICONIC</a></li>
+                                <li><a href="#">Women's perfume</a></li>
+                                <li><a href="#">Men's perfume</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="sub/body_01.html">BODY</a>
+                            <ul class="depth2">
+                                <li><a href="#">Body Wash</a></li>
+                                <li><a href="#">Body Milk</a></li>
+                                <li><a href="#">Body & Hair Oil</a></li>
+                                <li><a href="#">Body Butter</a></li>
+                                <li><a href="#">Hand Cream</a></li>
+                                <li><a href="#">Hand Wash</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="sub/home_01.html">HOME</a>
+                            <ul class="depth2">
+                                <li><a href="#">Scented Candle</a></li>
+                                <li><a href="#">Perfume Gun</a></li>
+                                <li><a href="#">Linen Spray</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="sub/gift_01.html">GIFTING</a>
+                            <ul class="depth2">
+                                <li><a href="#">GIFT SELECTION</a></li>
+                                <li><a href="#">GIFT SET</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="sub/story_01.html">DISCOVER FREDERIC MALLE</a>
+                            <ul class="depth2">
+                                <li><a href="#">ABOUT THE PERFUMES</a></li>
+                                <li><a href="#">ABOUT FREDERIC MALLE</a></li>
+                                <li><a href="#">OUR PERFUMERS</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                
+            </div>
+            <div class="gnb_bg"></div>
+        </header>
+        <main id="main">
+            <section id="mv">
+                <video src="img/videocut.mp4" autoplay muted loop placeinline></video>
+            </section>
+
+
+            <section id="new" data-aos="fade-up" data-aos-duration="3000" data-aos-once="false">
+                <div class="inner">
+                    <h2>HEAVEN CAN WAIT</h2>
+                    <p>"거부할 수 없이 미묘하게 끌어당겨 포옹을 유도합니다."</p>
+                    <div class="box">
+                        <div class="img">
+                            <img src="img/heaven.jpg" alt="heaven can wait">
+                        </div>
+
+                        <ul>
+                            <li>
+                                <img src="img/jjj.jpg" alt="Jean-Claude">
+                                <dl>
+                                    <dt>Composed by <br>
+                                        <a href="#">Jean-Claude Ellena</a>
+                                    </dt>
+                                    <dd><b>Notes</b><br>
+                                        아이리스, 정향, 당근 씨앗, <br>
+                                        베티버, 바닐라, 머스크
+                                    </dd>
+                                </dl>
+                                <div class="btn"><a href="#">제품 보기</a></div>
+                            </li>
+                        </ul> 
+                    </div>
+                </div>
+            </section>
+
+            
+            <section id="icon" data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-out">
+                <div class="inner">
+                        <h2>ICONIC PRODUCTS</h2>
+                        <p>프레데릭 말의 상징적인 제품들을 소개합니다.</p>
+                    <div class="swiper iconic">
+                        <div class="swiper-wrapper right">
+                            <div class="swiper-slide list">
+                                <div class="img">
+                                    <img src="img/ic/LADY.jpg" alt="portrait of a lady">
+                                    <img src="img/ic/LADY1.jpg" alt="portrait of a lady">
+                                </div>
+                                <div class="txt">
+                                    <h3>PORTRAIT OF A LADY</h3>
+                                    <h4>by Dominique Ropion</h4>
+                                    <p>숙녀의 초상화 <br>
+                                        장미와 유향 그리고 샌달우드의 풍성한 <br>
+                                        대비로 만들어낸 극적인 힘
+                                    </p>
+                                    <h5>100ml - $ 455</h5>
+                                    <div class="btn"><a href="#">장바구니 담기</a></div>
+                                </div>
+                            </div> 
+                            <div class="swiper-slide list">
+                                <div class="img">
+                                    <img src="img/ic/MUSC.jpg" alt="musc ravaceur"><img src="img/ic/MUSC1.jpg" alt="musc ravaceur">
+                                </div>
+                                <div class="txt">
+                                    <h3>MUSC RAVACEUR</h3>
+                                    <h4>by Maurice Roucel</h4>
+                                    <p>독특한 매력과 죄의 손길<br>
+                                       베르가못, 엠버, 머스크, 샌달우드의<br>
+                                       야만적인 성적 매력
+                                    </p>
+                                    <h5>100ml - $ 340</h5>
+                                    <div class="btn"><a href="#">장바구니 담기</a></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide list">
+                                <div class="img">
+                                    <img src="img/ic/NIGHT.jpg" alt="THE NIGHT">
+                                    <img src="img/ic/NIGHT1.jpg" alt="THE NIGHT">
+                                </div>
+                                <div class="txt">
+                                    <h3>THE NIGHT</h3>
+                                    <h4>by Dominique Ropion</h4>
+                                    <p>중동의 사랑 노래<br>
+                                       샤프란, 호박, 샌달우드로 장식되어 있는<br>
+                                       인도 우드와 터키 장미
+                                    </p>
+                                    <h5>100ml - $ 1950</h5>
+                                    <div class="btn"><a href="#">장바구니 담기</a></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide list">
+                                <div class="img">
+                                    <img src="img/ic/FRENCH.jpg" alt="french lover">
+                                    <img src="img/ic/FRENCH1.jpg" alt="french lover">
+                                </div>
+                                <div class="txt">
+                                    <h3>FRENCH LOVER</h3>
+                                    <h4>by Pierre Bourdon</h4>
+                                    <p>침묵의 자력<br>
+                                       안젤리카, 향신료, 베티버, 삼나무,<br>
+                                       오크모스의 원시 남성성
+                                    </p>
+                                    <h5>100ml - $ 340</h5>
+                                    <div class="btn"><a href="#">장바구니 담기</a></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide list">
+                                <div class="img">
+                                    <img src="img/ic/CARN.jpg" alt="carnal flower">
+                                    <img src="img/ic/CARN1.jpg" alt="carnal flower">
+                                </div>
+                                <div class="txt">
+                                    <h3>CARNAL FLOWER</h3>
+                                    <h4>by Dominique Ropion</h4>
+                                    <p>에로틱한 꽃<br>
+                                       베르가못, 자스민, 머스크<br>
+                                       오래 지속되는 튜베로즈의 아우라
+                                    </p>
+                                    <h5>100ml - $ 455</h5>
+                                    <div class="btn"><a href="#">장바구니 담기</a></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide list">
+                                <div class="img">
+                                    <img src="img/ic/GEM.jpg" alt="uncut gem">
+                                </div>
+                                <div class="txt">
+                                    <h3>UNCUT GEM</h3>
+                                    <h4>by Maurice Roucel</h4>
+                                    <p>수수께끼 같은 매력의 타협하지 않는 향기<br>
+                                       가죽 어코드, 베티버, 유향, 호박<br>
+                                       그리고 피부와 함께 진동하는 사향
+                                    </p>
+                                    <h5>100ml - $ 455</h5>
+                                    <div class="btn"><a href="#">장바구니 담기</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+            <section id="body">
+                <div class="inner" data-aos="fade-right" data-aos-duration="2000">
+                    <div class="left">
+                        <img src="img/bd/b.jpg" alt="body">
+                        <h2>BODY & BATH</h2>
+                        <p>코스메틱 케어가 Frédéric Malle의 시그니처 향수와 만나<br>
+                            완벽한 뷰티 루틴을 위한 호화로운 바디 케어 제품을 선보입니다.
+                        </p>
+                    </div>
+                    <div class="swiper b_right">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <div class="thumb">
+                                    <img src="img/bd/bw.jpg" alt="body wash">
+                                <img src="img/bd/bw1.jpg" alt="body wash">
+                                <dl>
+                                    <dt>바디 워시</dt>
+                                    <dd>200ml - $ 75 </dd>
+                                </dl>
+                                <div class="btn"><a href="#">제품 보기</a></div>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="thumb">
+                                    <img src="img/bd/lo.jpg" alt="body milk">
+                                <img src="img/bd/lo1.jpg" alt="body milk">
+                                <dl>
+                                    <dt>바디 밀크</dt>
+                                    <dd>200ml - $ 90 </dd>
+                                </dl>
+                                <div class="btn"><a href="#">제품 보기</a></div>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="thumb">
+                                    <img src="img/bd/oil.jpg" alt="body oil">
+                                <dl>
+                                    <dt>바디 & 헤어 오일</dt>
+                                    <dd>200ml - $ 195 </dd>
+                                </dl>
+                                <div class="btn"><a href="#">제품 보기</a></div>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="thumb">
+                                    <img src="img/bd/bb.jpg" alt="body butter">
+                                <dl>
+                                    <dt>바디 버터</dt>
+                                    <dd>200ml - $ 235 </dd>
+                                </dl>
+                                <div class="btn"><a href="#">제품 보기</a></div>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="thumb">
+                                    <img src="img/bd/hc.jpg" alt="hand cream">
+                                <img src="img/bd/hc1.jpg" alt="hand cream">
+                                <dl>
+                                    <dt>핸드 크림</dt>
+                                    <dd>$ 55 - $ 85</dd>
+                                </dl>
+                                <div class="btn"><a href="#">제품 보기</a></div>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="thumb">
+                                    <img src="img/bd/hw.jpg" alt="hand wash">
+                                <img src="img/bd/hw1.jpg" alt="hand wash">
+                                <dl>
+                                    <dt>핸드 워시</dt>
+                                    <dd>300ml - $ 75</dd>
+                                </dl>
+                                <div class="btn"><a href="#">제품 보기</a></div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </section>
+            <section id="gift">
+                <div class="inner" data-aos="fade-left" data-aos-duration="3000">
+                    <div class="left">
+                        <img src="img/gift/G.jpg" alt="gift selection">
+                        <h2>GIFT SELECTION</h2>
+                        <p>가장 상징적이거나 비밀스러운 작품을 엿볼 수 있는<br> 
+                            소형 향수 세트로 기억에 남는 선물을 전달해 보세요. 
+                        </p>
+                    </div>
+                    <div class="swiper g_right">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <div class="thumb">
+                                    <img src="img/gift/col.jpg" alt="">
+                                <dl>
+                                    <dt>THE ESSENTIAL<br>
+                                        COLLECTION</dt>
+                                    <dd>5 X 7ml - $ 98</dd>
+                                </dl>
+                                <div class="btn"><a href="#">장바구니 담기</a></div>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="thumb">
+                                    <img src="img/gift/col1.jpg" alt="">
+                                <dl>
+                                    <dt>THE ESSENTIAL<br>
+                                        COLLECTION</dt>
+                                    <dd>6 X 3.5ml - $ 180</dd>
+                                </dl>
+                                <div class="btn"><a href="#">장바구니 담기</a></div>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="thumb">
+                                    <img src="img/gift/dis.jpg" alt="">
+                                <dl>
+                                    <dt>DISCOVERY SET<br>
+                                        <span>a</span></dt>
+                                    <dd>6 X 1.2ml - $ 38</dd>
+                                </dl>
+                                <div class="btn"><a href="#">장바구니 담기</a></div>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="thumb">
+                                    <img src="img/gift/war.jpg" alt="">
+                                <img src="img/gift/war1.jpg" alt="">
+                                <dl>
+                                    <dt>VIBRANT &<br>
+                                        WARM SET</dt>
+                                    <dd>3 X 10ml - $ 280</dd>
+                                </dl>
+                                <div class="btn"><a href="#">장바구니 담기</a></div>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="thumb">
+                                    <img src="img/gift/ro.jpg" alt="">
+                                <img src="img/gift/ro1.jpg" alt="">
+                                <dl>
+                                    <dt>3 ROSE SET<br>
+                                        <span>a</span></dt>
+                                    <dd>3 X 10ml - $ 360</dd>
+                                </dl>
+                                <div class="btn"><a href="#">장바구니 담기</a></div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </section>
+            <section id="cs">
+                <div class="inner">
+                    <ul>
+                        <li>
+                            <img src="img/gi.png" alt="">
+                            <dl>
+                                <dt>선물 포장</dt>
+                                <dd>모든 주문에 무료로 제공되는<br>
+                                    선물 포장을 선택하세요.
+                                </dd>
+                            </dl>
+                            <a href="#">선물 찾아보기</a>
+                        </li>
+                        <li>
+                            <img src="img/sam.png" alt="">
+                            <dl>
+                                <dt>우리의 향수를 경험해보세요</dt>
+                                <dd>샘플 세트를 사용하여 자신에게 잘<br>
+                                    어울리는 향수를 결정해보세요.
+                                </dd>
+                            </dl>
+                            <a href="#">더 알아보기</a>
+                        </li>
+                        <li>
+                            <img src="img/deli.png" alt="">
+                            <dl>
+                                <dt>무료 배송</dt>
+                                <dd>향기로운 선물을 전달해드립니다.<br>
+                                    ( *일부 품목 제외)
+                                </dd>
+                            </dl>
+                            <a href="#">더 알아보기</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
+            <div class="top">
+                <h4>L'AVANT-GARDE DU PARFUM</h4>
+                <img src="img/logo2.svg" alt="">
+            </div>
+            <div class="con">
+                <div class="news">
+                    <h5>NEWSLETTER</h5>
+                    <p>뉴스레터에 가입하시면 새로운 출시, 이벤트, 특별 제안 등에
+                    대한 <br>소식을 계속 받아보실 수 있습니다.</p>
+                    <p>Enter Your Email                                                            <a href="">JOIN NOW</a></p>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>고객 서비스</li>
+                        <li><a href="#">주문 조회</a></li>
+                        <li><a href="#">배송</a></li>
+                        <li><a href="#">계정</a></li>
+                        <li><a href="#">매장 찾기</a></li>
+                        <li><a href="#">자주 묻는 질문</a></li>
+                    </ul>
+                    <ul>
+                        <li>회사 소개</li>
+                        <li><a href="#">에디션 드 퍼퓸</a></li>
+                        <li><a href="#">프레데릭 말레</a></li>
+                        <li><a href="#">조향사</a></li>
+                        <li><a href="#">컬렉션</a></li>
+                        <li><a href="#">기업 정보</a></li>
+                    </ul>
+                    <ul>
+                        <li>고객 지원</li>
+                        <li><a href="#">개인 정보 보호</a></li>
+                        <li><a href="#">개인 정보 정책</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">접근성</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom">
+                <ul>
+                    <li><a href="#"><img src="img/facebook.svg" alt=""> </a> </li>
+                    <li><a href="#"><img src="img/instagram.svg" alt=""></a> </li>
+                    <li><a href="#"><img src="img/youtube.svg" alt="">  </a> </li>
+                </ul>
+                <p>&copy; NOUVELLES EDITIONS DE PARFUMS</p>
+            </div>
+            
+        </footer>
+    </div>
+    
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
